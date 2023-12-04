@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    text-align: center;
+    padding: 300px;
+    background-image: url(gambar/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+}
+.profile{
+    columns: 2;
+    padding: 60px;
+}
+.foto{
+    padding: 5px;
+}
+.prolog{
+    text-align: justify;
+    padding: 5px;
+}
+.story{
+    text-align: justify;
+    padding: 5%;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5%;
+    justify-content: space-around;
+    background-color: black;
+}
+.bar{
+    color: white;
+    padding: 5%;
+    border-radius: 9px;
+    border-color: white;
+    border-style: solid;
+    margin: 10px;
+}
+.achievement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+.award{
+    padding: 5%;
+    border-radius: 9px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+}
+.plan{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    justify-content: space-around;
+}
+.card{
+    color: white;
+    padding: 5%;
+    border-radius: 9px;
+    border-color: white;
+    border-style: solid;
+    margin: 10px;
+    width: 150px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 300px;
+}
+.nav-active {
+    color: black; 
+    background-color: white;
+    border-radius: 9px;
+    padding: 10px;
+    transition: 0.3s;
+}
+@media screen and (max-width: 780px) {
+    header {
+        padding: 50px;
+    }
+    nav {
+        padding: 10px;
+    }
+    .profile,
+    .plan {
+        padding: 10px;
+    }
+    footer {
+        padding: 50px;
+    }
+    .profile{
+        columns: 1;
+    }
+}
